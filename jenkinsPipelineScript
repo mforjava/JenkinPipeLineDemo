@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build the application from GIT'
+                echo 'Build the application from GIT********'
             }
         }
         stage('Scan') {
             steps {
-                echo 'Sonar scan done'
+                echo 'Sonar scan done***************'
             }
         }
         stage('deploy') {
             steps {
-                echo 'Deploy the code'
+                echo 'Deploy the code************'
             }
         }
         stage('Success') {
             steps {
-                echo 'All steps are completed'
+                echo 'All steps are completed*******'
             }
         }
     }
